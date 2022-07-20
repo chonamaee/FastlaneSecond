@@ -1,0 +1,155 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In | Fastlane</title>
+	<!-- Font Awesome Icons -->
+	<script
+	src="https://kit.fontawesome.com/5daa8eb347.js"
+	crossorigin="anonymous"
+  ></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
+<!-- Favicons -->
+<link href="assets/fastlaneassets/fastlane-icon.png" rel="icon">
+<link href="assets/fastlaneassets/fastlane-icon.png" rel="apple-touch-icon">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+<!-- Vendor CSS Files -->
+<link href="assets/vendor/aos/aos.css" rel="stylesheet">
+<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+<link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+<link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+<link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+<!-- Template Main CSS File -->
+<link href="assets/css/about.css" rel="stylesheet">
+<link href="assets/css/branch.css" rel="stylesheet">
+<link href="assets/css/clients.css" rel="stylesheet">
+<link href="assets/css/features.css" rel="stylesheet">
+<link href="assets/css/for.css" rel="stylesheet">
+<link href="assets/css/hero.css" rel="stylesheet">
+<link href="assets/css/services.css" rel="stylesheet">
+<link href="assets/css/style.css" rel="stylesheet">
+<link href="assets/css/team.css" rel="stylesheet">
+<link href="assets/css/testimonial.css" rel="stylesheet">
+<link href="assets/css/btn.css" rel="stylesheet">
+	<script
+      src="https://kit.fontawesome.com/5daa8eb347.js"
+      crossorigin="anonymous"
+    ></script>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/sign-in.css">
+</head>
+<body>
+
+	<header id="header" class="header fixed-top">
+		<div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+			<a href="index.html" class="logo d-flex align-items-center">
+			<img src="assets/fastlaneassets/fastlanelogoname.png" alt="">
+			</a>
+
+			<nav id="navbar" class="navbar">
+				<ul>
+					<li><a class="nav-link scrollto" href="index.html">Home</a></li>
+					<li class="dropdown"><a href="#"><span>Fastlane Grocery</span> <i class="bi bi-chevron-down"></i></a>
+						<ul>
+							<li><a href="about-fastlane.html">About Fastlane</a></li>
+							<li><a href="testimonial.html">Testimonial</a></li>
+							<li><a href="products-services.html">Products and Services</a></li>
+							<li><a href="team.html">Fastlane Team</a></li>
+						</ul>
+					</li>
+
+					<li class="dropdown"><a href="#"><span>For Store Owners</span> <i class="bi bi-chevron-down"></i></a>
+						<ul>
+							<li><a href="#">Be a Fastlane tindera</a></li>
+							<li><a href="#">Help Desk </a></li>
+							<li><a href="#">Report Issue</a></li>
+						</ul>
+					</li>
+					<li class="dropdown"><a href="#"><span>Fastlane Partners</span> <i class="bi bi-chevron-down"></i></a>
+						<ul>
+							<li><a href="#">Partner With Us</a></li>
+							<li><a href="#">Help Desk</a></li>
+							<li><a href="#">Report Issue</a></li>
+						</ul>
+					</li>
+					
+				</ul>
+				<i class="bi bi-list mobile-nav-toggle"></i>
+			</nav><!-- .navbar -->
+
+		</div>
+	</header><!-- End Header -->
+	<section class="signin-section" data-aos="fade-right">
+		<div class="container signin-container" id="container">
+			<div class="form-container sign-up-container">
+				<form action="#" class="signup-form">
+					<h1 class="signin-h1">Create Account</h1>
+					<div class="social-container">
+						<a href="#" class="social signin-a"><i class="fab fa-facebook-f"></i></a>
+						<a href="#" class="social signin-a"><i class="fab fa-google-plus-g"></i></a>
+						<a href="#" class="social signin-a"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+					<span class="signin-span">or use your email for registration</span>
+					<input type="text" placeholder="Name" class="signin-input" id="signup-name"/>
+					<input type="email" placeholder="Email" class="signin-input" id="signup-email"/>
+					<input type="password" placeholder="Password" class="signin-input" id="signup-password"/>
+					<p id="signup-error-massage"></p>
+					<button class="signin-button" id="signup-button" onclick="signupAction()">Sign Up</button>
+				</form>
+			</div>
+			<div class="form-container sign-in-container">
+				<form action="#" class="signin-form">
+					<h1 class="signin-h1">Sign in</h1>
+					<div class="social-container">
+						<a href="#" class="social signin-a"><i class="fab fa-facebook-f"></i></a>
+						<a href="#" class="social signin-a"><i class="fab fa-google-plus-g"></i></a>
+						<a href="#" class="social signin-a"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+					<span class="signin-span">or use your account</span>
+					<input type="email" placeholder="Email" class="signin-input" id="signin-email"/>
+					<input type="password" placeholder="Password" class="signin-input" id="signin-password"/>
+					<p id="signin-error-massage"></p>
+					<a href="#" class="signin-a" id="signin-forgot-password">Forgot your password?</a>
+					<button class="signin-button" id="signin-button" onclick="signinAction()">Sign In</button>
+				</form>
+			</div>
+			<div class="overlay-container">
+				<div class="overlay">
+					<div class="overlay-panel overlay-left">
+						<h1 class="signin-h1">Welcome Back!</h1>
+						<p class="signin-p">To keep connected with us please login with your personal info</p>
+						<button class="ghost signin-button" id="signIn" onclick="welcomeSignInAction()">Sign In</button>
+					</div>
+					<div class="overlay-panel overlay-right">
+						<h1 class="signin-h1"><a href="/" class="add-primary">Fast<b class="add-secondary">lane</b></a> Grocery</h1>
+						<p class="signin-p">Enter your personal details and start journey with us</p>
+						<button class="ghost signin-button signup-button" id="signUp" onclick="pullTheTrigger()">Sign Up</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+	<!-- Vendor JS Files -->
+	<script src="assets/vendor/purecounter/purecounter.js"></script>
+	<script src="assets/vendor/aos/aos.js"></script>
+	<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+	<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+	<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+	<script src="assets/vendor/php-email-form/validate.js"></script>
+
+	<script src="assets/js/signin-controller.js"></script>
+	<script src="assets/js/main.js"></script>
+</body>
+</html>

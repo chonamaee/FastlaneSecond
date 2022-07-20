@@ -1,0 +1,43 @@
+
+.btn{
+    color: white;
+}
+.btn li{
+    background: #4154f1;
+    border-radius: 4px;
+    list-style: none;
+    text-decoration: none;
+  }
+  .btn li:hover{
+    background: crimson;
+  }
+
+  li > a.rounded-btn {
+    background: #DA173F;
+    color: #fff;
+    /* border-radius: 35px; */
+    padding: 0.75em 2.5em;
+    border: 0;
+    outline: none;
+  }
+  
+  a.rounded-btn:hover {
+    background: linear-gradient(150deg, #4154f1 25%, #DA173F 75%);
+  }
+
+  .add-primary {
+    color: #DA173F;
+  }
+
+  .transparent-btn {
+    color: #DA173F;
+    padding: 0.65em 2.5em;
+    border: 1px solid #DA173F;
+    transition: all 0.5s ease;
+  }
+
+  .transparent-btn:hover {
+    color: #fff;
+    background: linear-gradient(150deg, #4154f1 25%, #DA173F 75%);
+    border: 0;
+  } 

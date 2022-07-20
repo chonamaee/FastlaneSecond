@@ -18,12 +18,14 @@ const signUpErrorMessage = document.getElementById("signup-error-massage")
 // Switching signin and signup
 
 function pullTheTrigger() {
+    signInErrorMessage.textContent = ""
     document.querySelector(".container").classList.add("right-panel-active")
     signInForm.classList.add("hide-signin")
 }
 
 
 function welcomeSignInAction() {
+    signUpErrorMessage.textContent = ""
     document.querySelector(".container").classList.remove("right-panel-active")
     signInForm.classList.remove("hide-signin")
 
